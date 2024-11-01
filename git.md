@@ -23,6 +23,7 @@
            GIT_COMMITTER_NAME='{new name}';
            GIT_COMMITTER_EMAIL='{new email}'
            " HEAD``
+           
            ```
 
-                            
+5.  强制推送可能导致覆盖他人工作节点，强推的时候检查是否有他人推送： git push --force-with-lease
